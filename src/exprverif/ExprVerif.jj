@@ -1,0 +1,102 @@
+/*
+ * ExprVerif.jj
+ *
+ * Daniel Diaz - 2013
+ *
+ * Expressions arithmetiques en JavaCC: verification de la syntaxe.
+ */
+
+PARSER_BEGIN(ExprVerif)
+    package expreval;
+
+    public class ExprVerif {
+	public static void main(String args[]) throws ParseException {
+            ExprVerif syn = new ExprVerif(System.in);
+
+            System.out.print("entrer une expression: ");
+            syn.verifie();
+            System.out.println("syntaxe correcte");
+        }
+    }
+
+PARSER_END(ExprVerif)
+
+/* Partie syntaxique
+ *
+ * On ajoute une regle qui tient lieu d'axiome
+ * pour s'assurer qu'il y a bien un \n a la fin de l'expression.
+ */
+
+    // regle additionnelle: verif -> expression \n
+    // pour s'assurer qu'il y a bien un \n a la fin de l'expression
+void verifie() :  
+{}
+{
+    expression() "\n"
+}
+
+
+    // expression -> terme { + terme | - terme }
+void expression() : 
+{}
+{
+    terme()
+    (   "+"  terme()
+    |   "-"  terme()
+    )*
+}
+
+
+    // terme -> facteur { * facteur | / facteur }
+void terme() :
+{}
+{
+    facteur()
+    (   "*"  facteur()
+    |	"/"  facteur()
+    |   "%"  facteur()
+    )*
+}
+
+    // facteur -> unaire { ^ unaire }
+void facteur() :
+{}
+{
+    unaire()
+    (   "^"  unaire()
+    |   "**" unaire()
+    )*
+}
+
+    // unaire -> - unaire | puissance
+void unaire() :
+{}
+{
+    ("-" | "+") unaire() | puissance()
+}
+
+    // puissance -> ( expression ) | entier
+void puissance() :
+{}
+{
+     	"("  expression()  ")"
+    |   <ENTIER>
+    | <IDENTIFIER>
+}
+
+
+/* Partie lexicale
+ * 
+ * Les unites constantes sont directement referencees dans les regles.
+ * On ne decrit donc que les separateurs et les unites non constantes.
+ */
+
+SKIP :
+{ " " | "\t" | "\r" }
+
+
+TOKEN :
+{ 
+    < ENTIER: ( ["0"-"9"] )+ >
+    | < IDENTIFIER: ["a"-"z"]( ["a"-"z", "A"-"Z", "0"-"9"] )* >
+}

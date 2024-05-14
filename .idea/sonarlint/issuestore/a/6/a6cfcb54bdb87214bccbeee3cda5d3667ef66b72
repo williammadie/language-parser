@@ -1,0 +1,280 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(­È²èşÿÿÿÿ
+`	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(­È²èşÿÿÿÿ
+`	java:S112i"FDefine and throw a dedicated exception instead of using a generic one.(­È²èşÿÿÿÿ
+h	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(­È²èşÿÿÿÿ8·…‡‘÷1
+h	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(­È²èşÿÿÿÿ8ášÀ‘÷1
+h	java:S112·"FDefine and throw a dedicated exception instead of using a generic one.(­È²èşÿÿÿÿ8âšÀ‘÷1
+c	java:S112×"FDefine and throw a dedicated exception instead of using a generic one.(†ô•†8âšÀ‘÷1
+c	java:S112Ú"FDefine and throw a dedicated exception instead of using a generic one.(ñ·šû8âšÀ‘÷1
+h	java:S112è"FDefine and throw a dedicated exception instead of using a generic one.(í‹ËÜøÿÿÿÿ8âšÀ‘÷1
+c	java:S112ö"FDefine and throw a dedicated exception instead of using a generic one.(†ô•†8âšÀ‘÷1
+c	java:S112™"FDefine and throw a dedicated exception instead of using a generic one.(†ô•†8âšÀ‘÷1
+v
+java:S2293Õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Â°ø38äšÀ‘÷1
+^
+java:S6208'"CMerge the previous cases into this one using comma-separated label.(úÀôãùÿÿÿÿ
+Y
+java:S6208M"CMerge the previous cases into this one using comma-separated label.(Ó‚ï
+`
+java:S6208q"CMerge the previous cases into this one using comma-separated label.(ô‹Êâ8¼…‡‘÷1
+f
+java:S6208–"CMerge the previous cases into this one using comma-separated label.(ıÙçÿÿÿÿÿ8ì²Ç‘÷1
+©
+java:S1192Õ"ŠDefine a constant instead of duplicating this literal "	   You must either use ReInit() or set the JavaCC option STATIC to false" 3 times.(ÆÈ„ 8èšÀ‘÷1
+€
+java:S1192"eDefine a constant instead of duplicating this literal "Missing return statement in function" 6 times.(­È²èşÿÿÿÿ
+
+java:S1192Ö"^Define a constant instead of duplicating this literal "	   during parser generation." 3 times.(Æƒ¯ôüÿÿÿÿ8éšÀ‘÷1
+L
+java:S1121®".Extract the assignment out of this expression.(ôÍßÅ8éšÀ‘÷1
+Q
+java:S1121Ğ".Extract the assignment out of this expression.(ÍİÎııÿÿÿÿ8éšÀ‘÷1
+Q
+java:S1121Ğ".Extract the assignment out of this expression.(ÍİÎııÿÿÿÿ8éšÀ‘÷1
+L
+java:S1121Ò".Extract the assignment out of this expression.(œæì8éšÀ‘÷1
+{
+java:S1104¼"XMake token_source a static final constant or non-public and provide accessors if needed.(š³É¡úÿÿÿÿ8êšÀ‘÷1
+t
+java:S1104¿"QMake token a static final constant or non-public and provide accessors if needed.(Õ ¾åûÿÿÿÿ8êšÀ‘÷1
+t
+java:S1104Á"QMake jj_nt a static final constant or non-public and provide accessors if needed.(†÷ï•ûÿÿÿÿ8êšÀ‘÷1
+U
+java:S1444¼"2Make this "public static token_source" field final(š³É¡úÿÿÿÿ8ëšÀ‘÷1
+N
+java:S1444¿"+Make this "public static token" field final(Õ ¾åûÿÿÿÿ8ëšÀ‘÷1
+N
+java:S1444Á"+Make this "public static jj_nt" field final(†÷ï•ûÿÿÿÿ8ëšÀ‘÷1
+C
+java:S1199"-Extract this nested code block into a method.(›¶éæ
+C
+java:S1199B"-Extract this nested code block into a method.(›¶éæ
+C
+java:S1199h"-Extract this nested code block into a method.(›¶éæ
+K
+java:S1199ˆ"-Extract this nested code block into a method.(›¶éæ8Â…‡‘÷1
+K
+java:S1199Ÿ"-Extract this nested code block into a method.(›¶éæ8íšÀ‘÷1
+K
+java:S1199¶"-Extract this nested code block into a method.(›¶éæ8íšÀ‘÷1
+U
+java:S2589¶"7Remove this expression which always evaluates to "true"(›¶éæ8ŸÀ‘÷1
+U
+java:S2589ˆ"7Remove this expression which always evaluates to "true"(›¶éæ8¸Š‡‘÷1
+T
+java:S2589"7Remove this expression which always evaluates to "true"(›¶éæ8ŸÀ‘÷1
+U
+java:S2589Ÿ"7Remove this expression which always evaluates to "true"(›¶éæ8¸Š‡‘÷1
+
+java:S3008º"^Rename this field "jj_initialized_once" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ı—Íúÿÿÿÿ8ŸÀ‘÷1
+z
+java:S3008¼"WRename this field "token_source" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š³É¡úÿÿÿÿ8ŸÀ‘÷1
+}
+java:S3008½"ZRename this field "jj_input_stream" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ƒê˜øÿÿÿÿ8ŸÀ‘÷1
+s
+java:S3008Á"PRename this field "jj_nt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†÷ï•ûÿÿÿÿ8ŸÀ‘÷1
+o
+java:S3008Â"QRename this field "jj_ntk" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕûŸÛ8ŸÀ‘÷1
+n
+java:S3008Ã"QRename this field "jj_gen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ó¬z8ŸÀ‘÷1
+v
+java:S3008Å"SRename this field "jj_la1_0" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã–ãûÿÿÿÿ8ŸÀ‘÷1
+u
+java:S3008Õ"XRename this field "jj_expentries" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â°ø38ŸÀ‘÷1
+y
+java:S3008Ö"VRename this field "jj_expentry" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¼É§ÿÿÿÿÿ8ŸÀ‘÷1
+p
+java:S3008×"RRename this field "jj_kind" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õŸ¥ş8ŸÀ‘÷1
+o
+java:S3008ø"XRename this field "trace_enabled" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ¸·
+˜
+java:S1186€"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­Ì¥´
+
+java:S1186„"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÈÈß­ıÿÿÿÿ
+}
+java:S1450Ö"ZRemove the "jj_expentry" field and declare it as a local variable in the relevant methods.(…¼É§ÿÿÿÿÿ8“ŸÀ‘÷1
+?
+java:S1197"*Move the array designators [] to the type.(¬öL
+@	java:S106	"+Replace this use of System.out by a logger.(Î‡ùƒ
+P
+java:S2209
+"5Change this instance-reference to a static reference.(Èœ²¦üÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÔÜ¶‹ıÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ï³Ëó
+`
+java:S1124!"EReorder the modifiers to comply with the Java Language Specification.(Úà˜ªøÿÿÿÿ
+V	java:S125 "<This block of commented-out lines of code should be removed.(İÔãÒıÿÿÿÿ
+:
+java:S1659!"Declare "y" on a separate line.(Úà˜ªøÿÿÿÿ
+P
+java:S1119#";Refactor the code to remove this label and the need for it.(Àé„X
+7
+java:S1116("Remove this empty statement.(Åñ­õşÿÿÿÿ
+[
+java:S1124G"EReorder the modifiers to comply with the Java Language Specification.(ÄªÆ×
+Q	java:S125F"<This block of commented-out lines of code should be removed.(¬ŞÏ¹
+5
+java:S1659G"Declare "y" on a separate line.(ÄªÆ×
+V
+java:S1119I";Refactor the code to remove this label and the need for it.(Ï½Ó«ùÿÿÿÿ
+7
+java:S1116N"Remove this empty statement.(Åñ­õşÿÿÿÿ
+`
+java:S1124m"EReorder the modifiers to comply with the Java Language Specification.(õû¥Ÿıÿÿÿÿ
+A
+java:S1659m"Declare "y" on a separate line.(õû¥Ÿıÿÿÿÿ8ËÑı÷1
+?
+java:S1116†"Remove this empty statement.(Åñ­õşÿÿÿÿ8İŠ‡‘÷1
+c
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(“ø®î8‹‹‡‘÷1
+c
+java:S1124¤"EReorder the modifiers to comply with the Java Language Specification.(ÄÚÿÍ8Œ‹‡‘÷1
+=
+java:S1659¤"Declare "t" on a separate line.(ÄÚÿÍ8¢ŸÀ‘÷1
+h
+java:S1124º"EReorder the modifiers to comply with the Java Language Specification.(·ı—Íúÿÿÿÿ8‹‹‡‘÷1
+h
+java:S1124¼"EReorder the modifiers to comply with the Java Language Specification.(š³É¡úÿÿÿÿ8Œ‹‡‘÷1
+h
+java:S1124¿"EReorder the modifiers to comply with the Java Language Specification.(Õ ¾åûÿÿÿÿ8¦ŸÀ‘÷1
+h
+java:S1124Á"EReorder the modifiers to comply with the Java Language Specification.(†÷ï•ûÿÿÿÿ8¦ŸÀ‘÷1
+c
+java:S1124Â"EReorder the modifiers to comply with the Java Language Specification.(ÕûŸÛ8¦ŸÀ‘÷1
+b
+java:S1124Ã"EReorder the modifiers to comply with the Java Language Specification.(§ó¬z8¦ŸÀ‘÷1
+c
+java:S1124Ä"EReorder the modifiers to comply with the Java Language Specification.(ÓõÄ†8¦ŸÀ‘÷1
+h
+java:S1124Å"EReorder the modifiers to comply with the Java Language Specification.(ã–ãûÿÿÿÿ8¦ŸÀ‘÷1
+k	java:S100É"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÙ“8§ŸÀ‘÷1
+S
+java:S3010Ù"0Remove this assignment of "jj_initialized_once".(Í­ÙÛıÿÿÿÿ8§ŸÀ‘÷1
+J
+java:S3010Ú",Remove this assignment of "jj_input_stream".(ñ·šû8§ŸÀ‘÷1
+L
+java:S3010Û")Remove this assignment of "token_source".(–ĞµÛşÿÿÿÿ8¨ŸÀ‘÷1
+@
+java:S3010Ü""Remove this assignment of "token".(²ÒÍ©8¨ŸÀ‘÷1
+A
+java:S3010İ"#Remove this assignment of "jj_ntk".(ÄÍÃ8¨ŸÀ‘÷1
+@
+java:S3010Ş"#Remove this assignment of "jj_gen".(½ÏÃ!8¨ŸÀ‘÷1
+A
+java:S3010ß"#Remove this assignment of "jj_la1".(òæ–Ÿ8¨ŸÀ‘÷1
+G	java:S106Ô"+Replace this use of System.out by a logger.(¬É¸]8¨ŸÀ‘÷1
+H	java:S106Õ"+Replace this use of System.out by a logger.(ÆÈ„ 8¨ŸÀ‘÷1
+X
+java:S2479Õ":Remove the non-escaped \u0009 character from this literal.(ÆÈ„ 8¨ŸÀ‘÷1
+M	java:S106Ö"+Replace this use of System.out by a logger.(Æƒ¯ôüÿÿÿÿ8¨ŸÀ‘÷1
+]
+java:S2479Ö":Remove the non-escaped \u0009 character from this literal.(Æƒ¯ôüÿÿÿÿ8¨ŸÀ‘÷1
+W
+java:S2440Û"4Remove this instantiation of "ExprEvalTokenManager".(–ĞµÛşÿÿÿÿ8©ŸÀ‘÷1
+p	java:S100ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äà¼ıÿÿÿÿ8«ŸÀ‘÷1
+h
+java:S1124ã"EReorder the modifiers to comply with the Java Language Specification.(Äà¼ıÿÿÿÿ8«ŸÀ‘÷1
+p	java:S100ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠâÂùÿÿÿÿ8«ŸÀ‘÷1
+h
+java:S1124ç"EReorder the modifiers to comply with the Java Language Specification.(ŠâÂùÿÿÿÿ8¬ŸÀ‘÷1
+S
+java:S2209é"5Change this instance-reference to a static reference.(ÔìË8¬ŸÀ‘÷1
+S
+java:S3010ø"0Remove this assignment of "jj_initialized_once".(Í­ÙÛıÿÿÿÿ8­ŸÀ‘÷1
+J
+java:S3010ù",Remove this assignment of "jj_input_stream".(±ì÷Ü8­ŸÀ‘÷1
+L
+java:S3010ú")Remove this assignment of "token_source".(–ĞµÛşÿÿÿÿ8­ŸÀ‘÷1
+@
+java:S3010û""Remove this assignment of "token".(²ÒÍ©8­ŸÀ‘÷1
+A
+java:S3010ü"#Remove this assignment of "jj_ntk".(ÄÍÃ8­ŸÀ‘÷1
+@
+java:S3010ı"#Remove this assignment of "jj_gen".(½ÏÃ!8­ŸÀ‘÷1
+A
+java:S3010ş"#Remove this assignment of "jj_la1".(òæ–Ÿ8­ŸÀ‘÷1
+G	java:S106ó"+Replace this use of System.out by a logger.(¬É¸]8­ŸÀ‘÷1
+H	java:S106ô"+Replace this use of System.out by a logger.(ÆÈ„ 8®ŸÀ‘÷1
+X
+java:S2479ô":Remove the non-escaped \u0009 character from this literal.(ÆÈ„ 8®ŸÀ‘÷1
+M	java:S106õ"+Replace this use of System.out by a logger.(Æƒ¯ôüÿÿÿÿ8®ŸÀ‘÷1
+]
+java:S2479õ":Remove the non-escaped \u0009 character from this literal.(Æƒ¯ôüÿÿÿÿ8®ŸÀ‘÷1
+W
+java:S2440ú"4Remove this instantiation of "ExprEvalTokenManager".(–ĞµÛşÿÿÿÿ8®ŸÀ‘÷1
+p	java:S100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÄÎèüÿÿÿÿ8®ŸÀ‘÷1
+h
+java:S1124‚"EReorder the modifiers to comply with the Java Language Specification.(±ÄÎèüÿÿÿÿ8¯ŸÀ‘÷1
+W
+java:S2440‰"4Remove this instantiation of "ExprEvalTokenManager".(–ĞµÛşÿÿÿÿ8¯ŸÀ‘÷1
+S
+java:S2209Œ"5Change this instance-reference to a static reference.(ÔìË8°ŸÀ‘÷1
+S
+java:S3010›"0Remove this assignment of "jj_initialized_once".(Í­ÙÛıÿÿÿÿ8°ŸÀ‘÷1
+G
+java:S3010œ")Remove this assignment of "token_source".( ‘‚Š8°ŸÀ‘÷1
+@
+java:S3010""Remove this assignment of "token".(²ÒÍ©8°ŸÀ‘÷1
+A
+java:S3010"#Remove this assignment of "jj_ntk".(ÄÍÃ8°ŸÀ‘÷1
+@
+java:S3010Ÿ"#Remove this assignment of "jj_gen".(½ÏÃ!8°ŸÀ‘÷1
+A
+java:S3010 "#Remove this assignment of "jj_la1".(òæ–Ÿ8°ŸÀ‘÷1
+G	java:S106–"+Replace this use of System.out by a logger.(¬É¸]8°ŸÀ‘÷1
+H	java:S106—"+Replace this use of System.out by a logger.(ÆÈ„ 8±ŸÀ‘÷1
+X
+java:S2479—":Remove the non-escaped \u0009 character from this literal.(ÆÈ„ 8±ŸÀ‘÷1
+M	java:S106˜"+Replace this use of System.out by a logger.(Æƒ¯ôüÿÿÿÿ8±ŸÀ‘÷1
+]
+java:S2479˜":Remove the non-escaped \u0009 character from this literal.(Æƒ¯ôüÿÿÿÿ8±ŸÀ‘÷1
+k	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û³Á¯8±ŸÀ‘÷1
+T
+java:S2696¥"6Make the enclosing method "static" or remove this set.( ‘‚Š8²ŸÀ‘÷1
+T
+java:S2696¦"6Make the enclosing method "static" or remove this set.(²ÒÍ©8²ŸÀ‘÷1
+T
+java:S2696§"6Make the enclosing method "static" or remove this set.(ÄÍÃ8²ŸÀ‘÷1
+S
+java:S2696¨"6Make the enclosing method "static" or remove this set.(½ÏÃ!8²ŸÀ‘÷1
+T
+java:S2696©"6Make the enclosing method "static" or remove this set.(òæ–Ÿ8²ŸÀ‘÷1
+p	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İì‡øùÿÿÿÿ8²ŸÀ‘÷1
+h
+java:S1124¬"EReorder the modifiers to comply with the Java Language Specification.(İì‡øùÿÿÿÿ8³ŸÀ‘÷1
+X
+java:S2209¯"5Change this instance-reference to a static reference.(©ìÉüÿÿÿÿ8³ŸÀ‘÷1
+c
+java:S1124¼"EReorder the modifiers to comply with the Java Language Specification.(¤éÍş8³ŸÀ‘÷1
+X
+java:S2209¾"5Change this instance-reference to a static reference.(©ìÉüÿÿÿÿ8µŸÀ‘÷1
+h
+java:S1124Å"EReorder the modifiers to comply with the Java Language Specification.(ÑÉÑûÿÿÿÿ8µŸÀ‘÷1
+S
+java:S2209É"5Change this instance-reference to a static reference.( ½ùñ8µŸÀ‘÷1
+j	java:S100Î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÈ¦/8µŸÀ‘÷1
+b
+java:S1124Î"EReorder the modifiers to comply with the Java Language Specification.(ûÈ¦/8¶ŸÀ‘÷1
+X
+java:S2209Ğ"5Change this instance-reference to a static reference.(ÍİÎııÿÿÿÿ8¶ŸÀ‘÷1
+b
+java:S1124Õ"EReorder the modifiers to comply with the Java Language Specification.(Â°ø38¶ŸÀ‘÷1
+h
+java:S1124Ö"EReorder the modifiers to comply with the Java Language Specification.(…¼É§ÿÿÿÿÿ8·ŸÀ‘÷1
+c
+java:S1124×"EReorder the modifiers to comply with the Java Language Specification.(õŸ¥ş8·ŸÀ‘÷1
+h
+java:S1124Ú"EReorder the modifiers to comply with the Java Language Specification.(®İ¸Éÿÿÿÿÿ8·ŸÀ‘÷1
+c
+java:S1124ø"EReorder the modifiers to comply with the Java Language Specification.(õ¸·8¹ŸÀ‘÷1
+d	java:S100û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÍÏ´
+c
+java:S1124û"EReorder the modifiers to comply with the Java Language Specification.(ëÍÏ´8¹ŸÀ‘÷1
+d	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ì¥´
+c
+java:S1124€"EReorder the modifiers to comply with the Java Language Specification.(­Ì¥´8ºŸÀ‘÷1
+i	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÈß­ıÿÿÿÿ
+h
+java:S1124„"EReorder the modifiers to comply with the Java Language Specification.(ÈÈß­ıÿÿÿÿ8ºŸÀ‘÷1

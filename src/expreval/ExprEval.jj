@@ -1,0 +1,113 @@
+/*
+ * ExprEval.jj
+ *
+ * Daniel Diaz - 2013
+ *
+ * Evaluateur d'expressions arithmetiques en JavaCC.
+ *
+ */
+
+PARSER_BEGIN(ExprEval)
+
+    package expreval;
+
+    public class ExprEval {
+	public static void main(String args[]) throws ParseException {
+            ExprEval syn = new ExprEval(System.in);
+
+            System.out.print("entrer une expression: ");
+            int res = syn.evalue();
+            System.out.println("resultat = " + res);
+        }
+    }
+
+PARSER_END(ExprEval)
+
+
+/* Partie syntaxique
+ *
+ * On ajoute une regle qui tient lieu d'axiome
+ * pour s'assurer qu'il y a bien un \n a la fin de l'expression.
+ *
+ * Chaque regle retourne l'entier resultant de la sous-expression
+ * qu'elle vient d'analyser.
+ */
+
+    // regle additionnelle: evalue -> expression \n
+    // pour s'assurer qu'il y a bien un \n a la fin de l'expression
+int evalue() :  
+                                            { int x; }
+{
+    x = expression() "\n"                   { return x; }
+}
+
+
+    // expression -> terme { + terme | - terme }
+int expression() : 
+                                            { int x, y; }
+{
+    x = terme()
+    (   "+"  y = terme()                    { x = x + y; }
+    |   "-"  y = terme()                    { x = x - y; }
+    )*
+                                            { return x; }
+}
+
+
+    // terme -> facteur { * facteur | / facteur }
+int terme() :
+                                            { int x, y; }
+{
+    x = facteur()
+    (   "*"  y = facteur()                  { x = x * y; }
+    |	"/"  y = facteur()                  { x = x / y; }
+    )*
+                                            { return x; }
+}
+
+    // facteur -> primaire [ ^ facteur ]
+int facteur() :
+                                            { int x, y; }
+{
+    x = primaire() [
+        ("^" | "**") y = facteur()                       { x = (int) Math.pow(x, y); }
+    ]
+                                            { return x; }
+}
+    // primaire -> - primaire | atomique
+int primaire() :
+                                            { int x; }
+{
+    (   "-" x = primaire()                  { x = -x; }
+    |    x = atomique()
+    )
+                                            { return x; }
+}
+
+    // atomique -> ( expression ) | entier
+int atomique() :
+                                            { int x; Token t; }
+{
+
+    ( 	"("  x = expression()  ")"
+    |   t = <ENTIER>                        { x = Integer.parseInt(t.image); }
+    )
+                                            { return x; }
+}
+
+
+/* Partie lexicale
+ * 
+ * Les unites constantes sont directement referencees dans les regles.
+ * On ne decrit donc que les separateurs et les unites non constantes.
+ */
+
+SKIP : 
+{ " " | "\t" | "\r" }
+
+
+TOKEN :
+{ 
+    < ENTIER: ( ["0"-"9"] )+ >
+}
+

@@ -1,0 +1,83 @@
+PARSER_BEGIN(StringParser)
+
+    package stringparser;
+
+    public class StringParser {
+    public static void main(String args[]) throws ParseException {
+            StringParser syn = new StringParser(System.in);
+
+            System.out.print("entrer une expression: ");
+            String res = syn.evalue();
+            System.out.println("resultat = " + res);
+    }
+}
+
+PARSER_END(StringParser)
+
+    // Super règle : Vérifie qu'il y a un \n à la fin de l'input
+String evalue() :
+                                        { String x; }
+{
+    x = expression() "\n"               { return x; }
+}
+
+    // expression -> repetable { < ENTIER | > ENTIER }
+String expression() :
+                                        { String x; Token t; }
+{
+    x = repetable()
+    (   "<" t = <ENTIER>                {x = x.substring(0, Integer.parseInt(t.image));}
+    |   ">" t = <ENTIER>                {x = x.substring(x.length() - Integer.parseInt(t.image), x.length());}
+    )*
+                                        { return x; }
+}
+    // repetable -> inversable { * ENTIER }
+String repetable() :
+                                        { String x; Token t; }
+{
+    x = inversable()
+    (
+        "*" t = <ENTIER>                    { x = x.repeat(Integer.parseInt(t.image)); }
+    )*
+                                        { return x;}
+}
+    // inversable -> ~ inversable | concatenable
+String inversable() :
+                                            { String x; StringBuilder sb = new StringBuilder();}
+{
+    (   "~" x = inversable()                { for (int i = x.length() - 1; i >= 0; i--) sb.append(x.charAt(i)); x = sb.toString(); }
+    |    x = concatenable()
+    )                                       { return x; }
+}
+
+    // concatenable -> atomique { [.] atomique }
+String concatenable() :
+                                        { String x; String y; StringBuilder sb; }
+{
+    x = atomique()
+    (
+        ["."] y = atomique()            { x = new StringBuilder(x).append(y).toString(); }
+    )*
+                                            { return x; }
+}
+
+    // concatenable -> ( atomique ) | LETTRE
+String atomique() :
+                                            { String x; Token t; }
+{
+    ( "(" x = expression() ")"
+    | t = <LETTRE>                          { x = t.image; }
+    )
+                                            { return x; }
+}
+
+// Partie lexicale
+
+SKIP :
+{ " " | "\t" | "\r" }
+
+TOKEN :
+{
+     < ENTIER: ( ["0"-"9"] )+ >
+     | < LETTRE: ["a"-"z"] >
+}
